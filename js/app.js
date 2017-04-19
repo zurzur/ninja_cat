@@ -537,6 +537,6 @@ function reset() {
     bullets = [];
     enemies = [];
     sushi = [];
-    player.pos = [50, canvas.height / 2];
+    player.pos = [50, 2 * canvas.height / 3];
     player.sprite = new Sprite('img/running_cat.png', [0, 0], [166, 130], 1, [4], 'horisontal');
 };
